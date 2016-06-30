@@ -1,0 +1,6 @@
+applications:
+ - name: superzip
+   buildpack: git://github.com/wjjung317/heroku-buildpack-r.git
+   command: R --no-save --gui-none < /app/startscript.R
+   instances: 1
+   memory: 2G
