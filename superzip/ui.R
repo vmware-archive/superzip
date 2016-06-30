@@ -1,6 +1,8 @@
 library(shiny)
 library(leaflet)
 
+options(device='cairo')
+
 # Choices for drop-downs
 vars <- c(
   "Is SuperZIP?" = "superzip",
