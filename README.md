@@ -4,3 +4,8 @@ Please refer to the [Shiny Apps on CF section](http://pivotalsoftware.github.io/
 
 * Modified: [ui.R](https://github.com/pivotalsoftware/superzip/blob/master/superzip/UI.R), [server.R](https://github.com/pivotalsoftware/superzip/blob/master/superzip/server.R)
 * Added: [init.r](https://github.com/pivotalsoftware/superzip/blob/master/init.r), [startscript.R](https://github.com/pivotalsoftware/superzip/blob/master/startscript.R), [manifest.yml](https://github.com/pivotalsoftware/superzip/blob/master/manifest.yml)
+
+To push this app to your CF environment, run the following command after establishing an API endpoint:
+```
+cf push superzip -b https://github.com/wjjung317/heroku-buildpack-r
+```
