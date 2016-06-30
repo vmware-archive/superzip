@@ -5,6 +5,8 @@ library(scales)
 library(lattice)
 library(dplyr)
 
+options(device='cairo')
+
 # Leaflet bindings are a bit slow; for now we'll just sample to compensate
 set.seed(100)
 zipdata <- allzips[sample.int(nrow(allzips), 10000),]
