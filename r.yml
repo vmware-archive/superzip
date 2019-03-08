@@ -1,0 +1,10 @@
+packages:
+  - cran_mirror: https://cran.r-project.org
+    packages:
+      - name: shiny
+      - name: leaflet
+      - name: RColorBrewer
+      - name: scales
+      - name: lattice
+      - name: dplyr
+      - name: DT
