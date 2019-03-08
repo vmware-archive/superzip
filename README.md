@@ -7,5 +7,5 @@ Please refer to the [Shiny Apps on CF section](http://pivotalsoftware.github.io/
 
 To push this app to your CF environment, run the following command after establishing an API endpoint:
 ```
-cf push superzip -b https://github.com/wjjung317/heroku-buildpack-r
+cf push superzip -b https://github.com/cloudfoundry/r-buildpack.git
 ```
