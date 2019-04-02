@@ -1,6 +1,5 @@
 applications:
  - name: superzip
-   command: R --no-save --gui-none < /app/startscript.R
    instances: 1
    memory: 2G
    env:
